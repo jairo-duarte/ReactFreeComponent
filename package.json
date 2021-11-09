@@ -2,7 +2,13 @@
   "name": "3ww4n",
   "version": "1.0.0",
   "description": "",
-  "keywords": [],
-  "main": "index.html",
-  "dependencies": {}
+
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": { "parcel": "^2.0.0" },
+
+  "keywords": ["javascript", "starter"],
+  "browserslist": ["last 1 Chrome version"]
 }
